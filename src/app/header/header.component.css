@@ -1,0 +1,16 @@
+/* img{
+    margin: 2rem ;
+    max-width: 20vw;
+} */
+p{
+    padding-top: .6rem;
+    margin-left: 1rem;
+    font-size: clamp(2vw, 2vw ,4vw);
+} 
+div{
+    margin: 2rem;
+    max-width: 70vw;
+}
+/* .header-container{
+    background-color: aqua;
+} */

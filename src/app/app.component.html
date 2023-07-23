@@ -1,0 +1,36 @@
+<div class="row bgAnimation">
+  <!-- <div class="two" [style.backgroundColor]="backgroundColor.col2"></div> -->
+  <div class="col-3 one" [style.backgroundColor]="backgroundColor.col1">
+    <app-header></app-header>
+    <div class="d-grid gap-0">
+      <ul>
+        <li>
+          <button class="btn btn-bg-info" (click)="scroll(about)"><p class="fw-semibold">About</p></button>
+        </li>
+        <li>
+          <button class="btn btn-bg-info" (click)="scroll(skills)"><p class="fw-semibold">Skills</p></button>
+        </li>
+        <li>
+          <button class="btn btn-bg-info" (click)="scroll(projects)"><p class="fw-semibold">Projects</p></button>
+        </li>
+        <li>
+          <button class="btn btn-bg-info" (click)="scroll(connect)"><p class="fw-semibold">Connect</p></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-9 two" [style.backgroundColor]="backgroundColor.col2">
+    <div #about>
+      <app-about></app-about>
+    </div>
+    <div #skills>
+      <app-skills></app-skills>
+    </div>
+    <div #projects>
+      <app-projects></app-projects>
+    </div>
+    <div #connect>
+      <app-connect></app-connect>
+    </div>
+  </div>
+</div>

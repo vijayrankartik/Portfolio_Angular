@@ -1,0 +1,21 @@
+.links{
+    margin-left: 18%;
+    margin-top: 5%;
+    display: flex;
+}
+.comp-wrapper{
+    display: flex;
+}
+p{
+    margin-left: 4%;
+}
+span{
+    width: 1.5rem;
+}
+.about-container{
+    padding-top: 12%;
+    margin-bottom: 18%;
+}
+.filler2{
+    width: 30%;
+}

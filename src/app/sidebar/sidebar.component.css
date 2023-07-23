@@ -1,0 +1,16 @@
+/* .wrapper{
+    margin: 2rem;
+    max-width: 150vw;
+    background-color: aqua; */
+    /* padding: 0px;
+} */
+.content{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    text-align: left;
+}
+/* ul{
+    list-style-type: none
+} */

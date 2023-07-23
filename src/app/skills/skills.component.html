@@ -1,0 +1,69 @@
+<div class="skills-container">
+    <div class="row">
+        <div class="col" *ngFor="let s of skillSet1" appHover [id]="s.name">
+            <div class="card text-bg-light border-info text-center">
+                <div class="card-body">
+                    <p class="text-btn">{{s.name}}</p>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" *ngFor="let s of skillSet2" appHover [id]="s.name">
+            <div class="card text-bg-light border-info text-center">
+                <div class="card-body">
+                    <p class="text-btn">{{s.name}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col">
+        <div class="card text-bg-light text-center">
+            <div class="card-body">
+                <p class="text-btn">Angular</p>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-bg-light text-center">
+                <div class="card-body">
+                    <p class="text-btn">HTML</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-bg-light text-center">
+                <div class="card-body">
+                    <p class="text-btn">CSS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card text-bg-light text-center">
+                <div class="card-body">
+                    <p class="text-btn">C++</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-bg-light text-center">
+                <div class="card-body">
+                    <p class="text-btn">Express</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-bg-light text-center">
+                <div class="card-body">
+                    <p class="text-btn">Mongoose</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->

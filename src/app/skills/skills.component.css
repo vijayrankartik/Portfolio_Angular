@@ -1,0 +1,24 @@
+.card{
+    width: 100%;
+    height: auto;
+}
+.text-btn{
+    font-size: clamp(.4rem, 1.5rem, 3rem);
+}
+.skills-container{
+    padding-top: 20%;
+    margin-bottom: 20%;
+}
+.newClass{
+    width: 65%;
+    height: 65%;
+    opacity: .6;
+    margin-left: 16%;
+}
+/* img{
+    width: 15rem;
+    height: 15rem;
+} */
+/* .hover{
+    
+} */

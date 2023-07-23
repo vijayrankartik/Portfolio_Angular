@@ -1,0 +1,12 @@
+<div class="projects-container">
+  <mdb-carousel [controls]="true" [indicators]="true" [dark]="true">
+    <mdb-carousel-item *ngFor="let p of projects">
+      <img [src]="p.img" class="d-block w-100" alt=""/>
+      <div class="carousel-caption d-none d-md-block">
+        <p class="fw-semibold h4">{{p.name}}</p>
+        <p >{{p.desc}}</p>
+        <a [href]="p.ref" class="btn btn-light" target="_blank">Live Demo!</a>
+      </div>
+    </mdb-carousel-item>
+  </mdb-carousel>
+</div>
