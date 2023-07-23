@@ -11,7 +11,7 @@ export class ProjectsComponent {
       name: "The Football Center",
       desc:"It is an API based website which provides us with the highights from every league around the world at on place. It also displays the information about our favorite player and Teams.",
       ref: "https://the-football-center.netlify.com/",
-      img: "https://raw.githubusercontent.com/vijayrankartik/portfolio/main/images/background.jpg"
+      img: "https://raw.githubusercontent.com/vijayrankartik/The-Football-Center/main/resources/background.jpg"
     },
     {
       name: "Game of Codes",
